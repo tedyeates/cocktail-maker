@@ -21,3 +21,6 @@ class TestCocktailMaker(unittest.TestCase):
         
         self.assertTrue("Halloween Punch" in cocktails)
         self.assertTrue("Bleeding Surgeon" in cocktails)
+
+if __name__ == '__main__':
+    unittest.main()
